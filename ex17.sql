@@ -1,4 +1,5 @@
-/**/
+/*Requête 17. Lister les intermédiaires qui ont des associations avec plus de 5 entités :
+*/
 
 SELECT
     i.id,

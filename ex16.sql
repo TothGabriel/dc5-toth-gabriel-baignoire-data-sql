@@ -4,6 +4,7 @@ SELECT
     COUNT(e.id) AS NumberOfEntities
 FROM
     entity e
-    JOIN country c ON e.country_id = c.id
+    JOIN address a ON e.id_address = a.id_address
+    JOIN country c ON a.countries = c.code
 GROUP BY
     c.country;

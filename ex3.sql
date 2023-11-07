@@ -2,6 +2,6 @@
 SELECT
     *
 FROM
-    officers
+    officer
 WHERE
     country_id = 5;
