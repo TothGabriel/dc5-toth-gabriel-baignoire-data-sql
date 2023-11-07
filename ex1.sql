@@ -1,3 +1,5 @@
 /*Requête 1. Sélectionner tous les pays :*/
-
-SELECT * FROM country;
+SELECT
+    *
+FROM
+    country;
